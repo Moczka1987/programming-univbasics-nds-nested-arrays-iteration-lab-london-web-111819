@@ -1,13 +1,5 @@
 def join_ingredients(src)
-row = 0
-  array = []
-  while row < src.length do
-    array.push("I love #{src[row][0]} and #{src[row][1]} on my pizza")
-    row += 1
-  end
 
-array
-end	
 end
 
 def find_greater_pair(src)
