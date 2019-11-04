@@ -1,8 +1,8 @@
 def join_ingredients(src)
 array = []
 element= 0
-while element < scr.length
-array << "I love #{scr[element][0]} and #{scr[element][1]} on my pizza"
+while element < scr.length do
+array.push ("I love #{scr[element][0]} and #{scr[element][1]} on my pizza")
 element +=1
 end
 array
