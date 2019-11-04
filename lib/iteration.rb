@@ -1,10 +1,10 @@
 def join_ingredients(src)
-array = []
-element= 0
-while element < scr.length do
-array.push ("I love #{scr[element][0]} and #{scr[element][1]} on my pizza")
-element +=1
-end
+row = 0
+  array = []
+  while row < src.length do
+    array.push("I love #{src[row][0]} and #{src[row][1]} on my pizza")
+    row += 1
+  end
 array
 end
 
